@@ -1,11 +1,9 @@
 'use strict';
     $(document).ready(function() {
         console.log(fizzBuzz());
-        event.preventDefault();
     });
 
     var fizzBuzz = function() {
-        event.preventDefault();
 
         var userInput = parseInt(prompt("Enter a number"));
         for (var i = 1; i <= userInput; i++ ) {
